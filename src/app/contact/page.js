@@ -3,6 +3,7 @@ import React from 'react'
 import Contact from '@/components/Contact'
 import Navbar from '@/components/Navbar'
 import Social from '@/components/Social'
+import Footer from '@/components/Footer'
 function Contect() {
   return (
     <div className="relative bg-white overflow-hidden">
@@ -38,7 +39,7 @@ function Contect() {
     />
   </div>
 </div>
-
+<Footer/>
    
     </div>
   )

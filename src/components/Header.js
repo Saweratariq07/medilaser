@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';  
-
+import { FaPlayCircle } from "react-icons/fa";
 function Header() {
   return (
     <div className="container body p-5">
@@ -17,10 +17,13 @@ function Header() {
   with Advanced Laser Technology
 </h1>
 
-                <div className="mt-6">
-                  <button className="bg-yellow-500 text-white px-6 py-2 rounded-full flex items-center gap-2 hover:bg-yellow-600 transition">
-                    Get Started <span>&#9654;</span>
+                <div className="mt-6 gap-4 flex">
+                  <button className=" text-white px-6 py-2 rounded-full flex items-center gap-2 bg-yellow-600 transition">
+                    Get Started 
                   </button>
+                  <div className=' mt-2 '>
+                  <FaPlayCircle className='text-xl'/>
+                  </div>
                 </div>
               </div>
 

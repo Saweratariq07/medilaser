@@ -144,7 +144,7 @@ Special Offers
           className="w-full h-48 object-cover"
         />
         {/* Centered Icon */}
-        <div className="absolute top-56 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
+        <div className="absolute top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
           {promo.icon}
         </div>
       </div>

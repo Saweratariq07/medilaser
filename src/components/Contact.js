@@ -36,9 +36,14 @@ const Contact = () => {
 
   return (
     <div className="">
-      <div className="min-h-screen flex items-center justify-center pt-28 py-10">
+     
+      <div className="min-h-screen flex items-center justify-center pt-8 py-4">
+     
         <div className="relative w-full max-w-2xl d] p-12 rounded-lg border-[#000000]">
           <form className="space-y-6" ref={form} onSubmit={sendEmail}>
+          <h3 className="text-center font-semibold font-pattaya md:text-5xl text-black">
+      Book Consultation
+      </h3>
             <div>
               <input
                 type="text"
@@ -127,6 +132,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    
     </div>
   );
 };
